@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    width: 100%;
+    max-width: 420px;
+    height: 350px;
+    padding: 30px;
+    color:#fff;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 30px;
+    margin: 10px;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.search-bar{
+    width: 85%;
+    height: 35px;
+    border-radius: 25px;
+    padding: 15px;
+    background: #7c7c7c2b;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+}
+.search button{
+ width: 35px;
+ height: 35px;
+ border-radius: 50%;
+ background: rgba(50,50,50,0.7);
+ border: none;
+ color: #fff;
+ cursor: pointer;
+ outline: none;
+}
+.temperature{
+    font-size: 2.5rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.Description, .Humidity, .WindSpeed{
+font-size: 1.2rem;
+margin-top: 5px;
+text-transform: capitalize;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.loading{
+    visibility: hidden;
+}
